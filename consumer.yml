@@ -1,0 +1,6 @@
+spring.cloud.config.server.git.uri=https://github.com/fred7510/SpringCloud-config-Center.git
+spring.cloud.config.label=main
+eureka.client.service-url.defaultZone: http://hanhao:123@euk2.com:8082/eureka/,http://hanhao:123@euk1.com:8081/eureka/
+
+server.port=2001
+spring.application.name=config-center
